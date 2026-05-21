@@ -30,6 +30,20 @@ Both Random Forest and Gradient Boosting models demonstrated strong performance.
 
 `anomaly_score` consistently emerged as the most important feature across all models, highlighting its critical role in identifying fraudulent activities.
 
+## Key Visualizations
+
+### Distribution of Transaction Amount
+
+![Transaction Amount Distribution](images/images/transaction_amount_distribution.png)
+
+This plot shows how transaction amounts are distributed for both fraudulent and non-fraudulent transactions. We can observe that fraudulent transactions tend to have higher amounts in certain ranges.
+
+### Distribution of Anomaly Score
+
+![Anomaly Score Distribution](images/images/anomaly_score_distribution.png)
+
+Here, the distribution of the anomaly score is presented, differentiating between fraudulent and non-fraudulent activities. A higher anomaly score appears to be strongly correlated with fraud, indicating its predictive power.
+
 ## How to Use the Saved Model
 
 To load and use the `tuned_gradient_boosting_model.pkl` for making predictions on new data, you can use the following Python code snippet:
