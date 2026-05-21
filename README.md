@@ -17,6 +17,19 @@ The analysis is based on a simulated banking transaction dataset, which includes
     *   **Gradient Boosting Classifier:** Another powerful ensemble model was trained and evaluated.
 4.  **Hyperparameter Tuning:** The Gradient Boosting model was further optimized using `GridSearchCV` to find the best performing parameters.
 
+## Key Visualizations
+
+### Distribution of Transaction Amount
+
+![Transaction Amount Distribution](images/transaction_amount_distribution.png)
+
+This plot shows how transaction amounts are distributed for both fraudulent and non-fraudulent transactions. We can observe...
+
+### Distribution of Anomaly Score
+
+![Anomaly Score Distribution](images/anomaly_score_distribution.png)
+
+Here, the distribution of the anomaly score is presented, differentiating between fraudulent and non-fraudulent activities. A higher anomaly score appears to be correlated with fraud...
 ## Key Findings & Model Performance
 
 Both Random Forest and Gradient Boosting models demonstrated strong performance. The **Tuned Gradient Boosting Classifier** showed the best overall performance:
